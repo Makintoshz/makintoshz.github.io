@@ -23,8 +23,6 @@ nav{display:flex;justify-content:space-between;align-items:center;padding:24px 0
 .logo{display:flex;align-items:center;gap:10px;font-weight:700;letter-spacing:.5px;direction:ltr;text-decoration:none;color:var(--text)}
 .logo-mark{width:34px;height:34px;border-radius:10px;background:linear-gradient(135deg,var(--a1),var(--a2));display:grid;place-items:center;font-size:18px;color:#fff;box-shadow:0 6px 24px rgba(124,92,255,.45)}
 .nav-r{display:flex;gap:10px;align-items:center}
-.pill{font-size:13px;color:var(--muted);border:1px solid var(--line);padding:6px 14px;border-radius:999px;background:var(--card)}
-.pill .dot{display:inline-block;width:7px;height:7px;border-radius:50%;background:#22c55e;margin-inline-end:6px;box-shadow:0 0 10px #22c55e}
 .lang{font:inherit;font-size:13px;font-weight:600;cursor:pointer;color:var(--text);border:1px solid var(--line);background:var(--card);padding:6px 14px;border-radius:999px;transition:.2s}
 .lang:hover{border-color:var(--a1)}
 .hero{text-align:center;padding:90px 0 60px}
@@ -52,7 +50,7 @@ footer a{color:var(--text);text-decoration:none;direction:ltr;display:inline-blo
 .fade{opacity:0;transform:translateY(16px);animation:up .8s ease forwards}
 .d2{animation-delay:.12s}.d3{animation-delay:.24s}.d4{animation-delay:.36s}.d5{animation-delay:.48s}
 @keyframes up{to{opacity:1;transform:none}}
-@media(max-width:520px){.pill{display:none}.hero{padding:60px 0 40px}}
+@media(max-width:520px){.hero{padding:60px 0 40px}}
 </style>
 </head>
 <body>
@@ -62,7 +60,6 @@ footer a{color:var(--text);text-decoration:none;direction:ltr;display:inline-blo
   <nav class="fade">
     <a class="logo" href="./"><div class="logo-mark">M</div>Makintoshz</a>
     <div class="nav-r">
-      <div class="pill"><span class="dot"></span><span data-en="Building something new" data-ar="أشتغل على شي جديد">Building something new</span></div>
       <button class="lang" id="lang" aria-label="Switch language">عربي</button>
     </div>
   </nav>
@@ -90,7 +87,7 @@ footer a{color:var(--text);text-decoration:none;direction:ltr;display:inline-blo
   </section>
 
   <footer>
-    <a href="https://github.com/Makintoshz">github.com/Makintoshz</a>
+    <a href="https://makintoshz.github.io">makintoshz.github.io</a>
     <div style="margin-top:8px">&copy; <span id="y"></span> Makintoshz</div>
   </footer>
 </div>
