@@ -32,7 +32,7 @@ Every project gets its own landing page, with privacy and support pages where ne
 
 | Project | Platform | Link |
 |---|---|---|
-| _Coming soon_ | | |
+| NoteApp | iOS (iPhone and iPad) | [makintoshz.github.io/noteapp](https://makintoshz.github.io/noteapp/) |
 
 ## Structure
 
