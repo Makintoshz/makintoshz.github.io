@@ -28,7 +28,7 @@ iOS &bull; Android &bull; macOS &bull; Linux &bull; Websites &bull; Servers &amp
 ## About
 
 This repo is my personal website, published with GitHub Pages at **[makintoshz.github.io](https://makintoshz.github.io)**.
-Every project gets its own landing page, with privacy and support pages where needed.
+Every project gets its own landing page in English and Arabic, with full legal and support pages.
 
 ## Projects
 
@@ -40,11 +40,14 @@ Every project gets its own landing page, with privacy and support pages where ne
 
 ```
 /
-├── index.html        # Home page
-└── <project>/        # One folder per project
-    ├── index.html    # Landing page  -> makintoshz.github.io/<project>/
-    ├── privacy/      # Privacy policy
-    └── support/      # Support
+├── index.html              # Home page
+└── <project>/              # One folder per project
+    ├── index.html          # Landing page     -> makintoshz.github.io/<project>/
+    ├── privacy/            # Privacy Policy
+    ├── terms/              # Terms of Use
+    ├── cookies/            # Cookie Policy
+    ├── data-deletion/      # Data deletion
+    └── support/            # Support & FAQ
 ```
 
 ---
