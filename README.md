@@ -33,6 +33,7 @@ Every project gets its own landing page, with privacy and support pages where ne
 | Project | Platform | Link |
 |---|---|---|
 | NoteApp | iOS (iPhone and iPad) | [makintoshz.github.io/noteapp](https://makintoshz.github.io/noteapp/) |
+| Stockly | iOS and Android | [makintoshz.github.io/stockly](https://makintoshz.github.io/stockly/) |
 
 ## Structure
 
